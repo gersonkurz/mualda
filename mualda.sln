@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp_benchmarks", "csharp
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "js_benchmarks", "js_benchmarks\js_benchmarks.njsproj", "{933F9CF3-D665-465C-B055-0D288BC08E9B}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "python_benchmarks", "python_benchmarks\python_benchmarks.pyproj", "{96687C39-942E-4DE5-93DD-03E3451C6C49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,12 @@ Global
 		{933F9CF3-D665-465C-B055-0D288BC08E9B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{933F9CF3-D665-465C-B055-0D288BC08E9B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{933F9CF3-D665-465C-B055-0D288BC08E9B}.Release|Win32.ActiveCfg = Release|Any CPU
+		{96687C39-942E-4DE5-93DD-03E3451C6C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96687C39-942E-4DE5-93DD-03E3451C6C49}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{96687C39-942E-4DE5-93DD-03E3451C6C49}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{96687C39-942E-4DE5-93DD-03E3451C6C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96687C39-942E-4DE5-93DD-03E3451C6C49}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{96687C39-942E-4DE5-93DD-03E3451C6C49}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
