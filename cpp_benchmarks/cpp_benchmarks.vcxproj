@@ -80,7 +80,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="counting_sort.cpp" />
+    <ClCompile Include="SortingBenchmarks.cpp" />
     <ClCompile Include="cpp_benchmarks.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

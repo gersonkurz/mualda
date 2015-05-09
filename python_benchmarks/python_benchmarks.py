@@ -19,33 +19,33 @@ def IsSorted(A):
     return True
 
 def TestSortMethod(array, closure, name, repeat = 10):
-    total_time = 0
-    max_time = 0
-    min_time = 0
+    totalTime = 0
+    maxTime = 0
+    minTime = 0
 
     for r in range(repeat):
         random.shuffle(array)
         assert not IsSorted(array)
-        elapsed_time = time.time()
+        elapsedTime = time.time()
         closure(array)
-        elapsed_time = time.time() - elapsed_time
+        elapsedTime = time.time() - elapsedTime
         assert IsSorted(array)
         if r == 0:
-            total_time = min_time = max_time = elapsed_time
+            totalTime = minTime = maxTime = elapsedTime
         
         else:
-            total_time += elapsed_time
-            if elapsed_time < min_time:
-                min_time = elapsed_time
+            totalTime += elapsedTime
+            if elapsedTime < minTime:
+                minTime = elapsedTime
 
-            if elapsed_time > max_time:
-                max_time = elapsed_time
+            if elapsedTime > maxTime:
+                maxTime = elapsedTime
 
-    average_time = total_time / repeat
+    averageTime = totalTime / repeat
 
     as_ms = lambda x: int(round(x*1000))
 
-    print(TIMEIT_PATTERN_INT % (name, as_ms(average_time), as_ms(max_time), as_ms(min_time), ))
+    print(TIMEIT_PATTERN_INT % (name, as_ms(averageTime), as_ms(maxTime), as_ms(minTime), ))
 
 def counting_sort(A, n):
 

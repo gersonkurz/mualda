@@ -29,7 +29,7 @@
     <ClCompile Include="cpp_benchmarks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="counting_sort.cpp">
+    <ClCompile Include="SortingBenchmarks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
