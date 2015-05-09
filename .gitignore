@@ -5,6 +5,11 @@ __pycache__/
 # C extensions
 *.so
 
+# C++ extensions
+*.suo
+*.sdf
+ipch/
+
 # Distribution / packaging
 .Python
 env/
